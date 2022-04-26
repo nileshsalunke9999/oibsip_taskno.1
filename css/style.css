@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/running\ woman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.row {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+    margin-top: 20px;
+    border-radius: 120px;
+}
+
+.main_nav {
+    float: right;
+    margin-top: 50px;
+}
+
+.main_nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.main_nav li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+
+.main_nav li a:hover {
+    border-bottom: 2px solid black;
+}
+
+.main_contain {
+    margin: 6rem;
+}
+
+h1 {
+    color: white;
+    font-size: 250%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    /* text-transform: uppercase; */
+    /* font-weight: lighter; */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background-color 02s, border 0.2s, color 0.2s;
+}
+
+.btn1 {
+    background-color: transparent;
+    color: #92BA92;
+    margin-right: 15px;
+    border: 1px solid #92BA92;
+}
+
+.btn1:hover {
+    background-color: #06113C;
+}
+
+.btn2 {
+    background-color: transparent;
+    color: #F56D91;
+    border: 1px solid #F56D91;
+}
+
+.btn2:hover {
+    background-color: #332FD0;
+}
